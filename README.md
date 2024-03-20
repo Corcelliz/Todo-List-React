@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center">📋 TODO (lista de tarefas).</h1>
+<p align="center">Clássica lista de tarefas para anotar compromissos podendo marcar o quais ja foram realizados e excluí-los.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+<div>
+    <h2 style="display: flex; justify-content: center">🧑🏼‍💻 Métodos e Tecnologias Utilizados</h2>
+    <p style="display: flex; justify-content: center">
+        <li>Como criar e estruturar um projeto React.<br>
+        <li>Aplicação prática dos conceitos de Componentes, States e Props.<br>
+        <li>Entrada de dados.</li>
+        <li>Listagem de valores.</li>
+        <li>Manipulação de dados.</li>
+        <li>Estilização (CSS).</li>
+        <li>Estratégias de refatoração de código.</li>
+    </p>
+</div><br>
 
-## Available Scripts
+<div style=" display: flex; justify-content: center; align-items: center; gap: 30px">
+    <img align="center" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+    <img align="center" alt="Css" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+    <img align="center" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+</div><br>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<h2 style="display: flex; justify-content: center">🏗️ Instalando o Framework React</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O React é uma biblioteca JavaScript popular para a construção de interfaces de usuário interativas. Este guia fornece uma visão geral dos passos básicos necessários para instalar o React em seu projeto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2 style="display: flex; justify-content: center"> 1: Configuração do Ambiente </h2>
 
-### `npm test`
+Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados em seu sistema. Você pode verificar a instalação digitando os seguintes comandos em seu terminal:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+node -v
+npm -v
+```
 
-### `npm run build`
+Se o Node.js e o npm estiverem instalados, você verá as versões correspondentes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2 style="display: flex; justify-content: center"> 2: Criar um Novo Projeto React </h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para criar um novo projeto React, você pode usar o `create-react-app`, que é uma ferramenta CLI oficialmente suportada para criar aplicativos React com facilidade. Execute o seguinte comando no seu terminal:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npx create-react-app my-react-app
+```
 
-### `npm run eject`
+Substitua `my-react-app` pelo nome desejado para o seu projeto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h2 style="display: flex; justify-content: center"> 3: Navegar para o Diretório do Projeto</h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Depois que o projeto for criado, navegue para o diretório do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd my-react-app
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h2 style="display: flex; justify-content: center"> 4: Iniciar o Servidor de Desenvolvimento</h2>
 
-## Learn More
+Agora, você pode iniciar o servidor de desenvolvimento executando o seguinte comando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este comando iniciará o servidor de desenvolvimento e abrirá automaticamente seu aplicativo React no navegador padrão.
 
-### Code Splitting
+<h2 style="display: flex; justify-content: center"> 5: Explorando o Projeto</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Seu projeto React recém-criado contém uma estrutura de arquivos básica, incluindo componentes de exemplo, arquivos de configuração e muito mais. Explore e familiarize-se com essa estrutura para começar a construir seu próprio aplicativo.
 
-### Analyzing the Bundle Size
+<h2 style="display: flex; justify-content: center"> Conclusão</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Parabéns! Você instalou com sucesso o framework React e configurou um novo projeto. Agora você está pronto para começar a desenvolver aplicativos web incríveis usando React. Consulte a [documentação oficial do React](https://reactjs.org/) para mais detalhes e recursos avançados.
